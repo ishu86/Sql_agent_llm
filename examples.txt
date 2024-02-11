@@ -1,0 +1,11 @@
+examples = [
+    {"input": "List all states.", "query": "SELECT 'State_Name' FROM all_states_assembly;"},
+    {
+        "input": "Find all candidates of age=57 'AC/DC'.",
+        "query": "SELECT 'Candidate_Name' FROM all_states_assembly WHERE 'Age'='57';"
+    },
+    {
+        "input": "",
+        "query": "",
+    },
+   
